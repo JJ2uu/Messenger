@@ -7,9 +7,9 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./logs/access.log</file>
+        <file>E:\whisper\messenger\logs\access.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/logs/access-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>E:\whisper\messenger\logs\access-%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>50</maxHistory>
         </rollingPolicy>
 
